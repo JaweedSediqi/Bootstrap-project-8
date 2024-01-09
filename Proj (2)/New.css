@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* -----------------home1 ------------------ */
+.bg-dark{
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+}
+.navbar a{
+    color: rgb(255, 255, 255)!important;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+.navbar a:hover,.active{
+    background-image: linear-gradient(to right,#7dcedd,#0d474b);
+}
+.mydiv{
+    height: 80vh;
+    background-image: url(ddd.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+.mydiv h1{
+padding-top: 170px;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 6px;
+}
+.myserach{
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+    padding:30px 0;
+    margin: -50px 6% 50px;
+}
+.myserach .form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+}
+#btn{
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 110px;
+}
+#btn:hover{
+    background-image: linear-gradient(to right,#7dcedd,#0d474b);
+    color: aliceblue;
+}
+
+/* -----------------home2 ------------------ */
+#home2{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#home2 h3{
+    padding-bottom: 40px;
+    text-align: center;
+}
+h3::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+    width: 50px;
+    height: 30px;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius:70px ;
+    border-bottom-right-radius: 90px;
+}
+#home2 img{
+    max-width: 100px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+/* -----------------home3 ------------------ */
+
+#home3{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#applay-btn{
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+}
+#divv{
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+}
+#ull{
+margin: 10px; 
+}
+.bb:hover{
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+    color: aliceblue;
+}
+/* -----------------home4 ------------------ */
+#home4{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.foooter{
+    width: 100%;
+    height: 20vh;
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+    color: aliceblue;
+}
+.mypage_link li{
+    margin-top: 30px;
+    padding: 20px;
+    width: 25px;
+    height: 25px;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mypage_link li:hover,.active{
+    background-image: linear-gradient(to right,#2eb5cd,#14ca7e);
+    color: aliceblue;
+}
+
